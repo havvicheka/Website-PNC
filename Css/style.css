@@ -133,17 +133,6 @@ p {
     height: 30px;
 }
 
-.btn {
-    margin-top: 60px;
-    border: 1px solid orangered;
-    color: white;
-    background-color: orange;
-    font-weight: bold;
-    border-radius: 8px;
-    width: 80px;
-    height: 30px;
-}
-
 .btn:hover {
     transform: translateY(-5px);
     transition: .5s;
@@ -476,15 +465,173 @@ p {
     }
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
     .Top {
         font-weight: bold;
         border: 1px solid orangered;
         background-color: orange;
         border-radius: 25px;
-        width: 100px;
-        height: 40px;
+        width: 80px;
+        height: 35px;
         /* margin: 10px; */
         margin-left: 65px;
     }
+
+    .text {
+        font-size: x-large;
+        padding: 30px;
+        margin: 40px;
+        color: dodgerblue;
+
+    }
+
+    p {
+
+        margin-top: 20px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .cardvalue {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cardvalue img {
+        margin-top: 10px;
+        width: 70px;
+        height: 50px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 0.5px solid rgb(236, 229, 229);
+        border-radius: 25px;
+        text-align: center;
+        color: black;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 320px;
+        height: 300px;
+    }
+
+    .btn {
+        margin-top: 30px;
+        border: 1px solid orangered;
+        color: white;
+        background-color: orange;
+        font-weight: bold;
+        border-radius: 8px;
+        width: 80px;
+        height: 30px;
+    }
+
+    .btn:hover {
+        transform: translateY(-5px);
+        transition: .5s;
+        background-color: rgba(255, 0, 0, 0.586);
+    }
+
+    table {
+        width: 40px;
+        margin: 50px;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+
+
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        text-transform: uppercase;
+        color: dodgerblue;
+    }
+
+    .food h3 {
+        margin-top: 15px;
+        text-align: center;
+
+    }
+
+    .pic img {
+        border-radius: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .pic{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    }
+    .sport {
+    height: 130vh;
+}
+
+.sp {
+    text-align: center;
+}
+
+.picsport {
+    margin: 0;
+    gap: 20px;
+}
+
+.tex {
+    margin-top: 90px;
+}
+.tex p{
+    display: none;
+}
+.picsport img {
+    margin-top: 60px;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.picaero img{
+    margin-top: 30px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.Aeropic{
+    gap: 20px;
+    flex-direction: column;
+}
+.contact{
+    display: none;
+}
+.footer{
+
+}
+.map{
+    margin-top: 100px;
+}
+.para{
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.paragrap img {
+    display: flex;
+    margin-top: 10px;
+}
+
+
 }
